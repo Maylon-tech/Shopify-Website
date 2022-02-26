@@ -1,0 +1,89 @@
+@import 'variavel.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.home {
+    border: 2px solid black;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--darkGreen-MENU);
+}
+
+.header .navbar-logo {
+    display: flex;
+    width: 60%;
+    margin-left: 90px;
+}
+.header .navbar-logo ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.header .navbar-logo li {
+    margin: 0 9px;
+}
+.header .navbar-logo a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.header .navbar-logo img {
+    height: 100px;
+}
+
+
+.header .navbar-button {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.header .navbar-button ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.header .navbar-button li {
+    margin: 0 7px;
+}
+.header .navbar-button button {
+    padding: 8px;
+    margin: 0px 5px;
+    width: 100px;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--lightGreen-BTN);
+}
+.header .navbar-button a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header .navbar-button
+.header .navbar-button
+
+.content {
+    border: 2px solid red;
+    height: 100%;
+    display: flex;
+}
+.content .text-container {
+    border: 2px solid gray;
+}
+.cotent .image-container {
+    border: 2px solid orange;
+    
+}
