@@ -44,7 +44,6 @@ body {
     height: 100px;
 }
 
-
 .header .navbar-button {
     display: flex;
     width: 40%;
@@ -66,6 +65,14 @@ body {
     border-radius: 6px;
     border: none;
     background-color: var(--lightGreen-BTN);
+    color: #fff;
+    font-weight: bold;
+    font-size: .8rem;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+.header .navbar-button button:hover {
+    background-color: var(--grayLight-Font);
 }
 .header .navbar-button a {
     text-decoration: none;
@@ -86,4 +93,78 @@ body {
 .cotent .image-container {
     border: 2px solid orange;
     
+}
+
+
+/* CONTENT CENTRAL */
+
+.content {
+    background-color: var(--lightGreen-BTN);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content img {
+    width: 130px;
+
+}
+
+.content h1 {
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.content h3 {
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+.content .buttons {
+    padding: 20px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content .buttons input {
+    padding: 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    width: 50%;
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+.content .buttons button {
+    padding: 20px;
+    border-radius: 6px;
+    border: none;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.content .buttons button:hover {
+    background-color: rgba(68, 68, 68, 0.733);
+    box-shadow: 0px 0px 15px white;
+}
+.content .text {
+    width: 35%;
+}
+.content .text p {
+    font-size: .8rem;
+    color:#fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+
 }
